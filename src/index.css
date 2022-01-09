@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* css custom properties */
+:root {
+  --primary: #171c2a;
+  --secondary: #11141f;
+  --tertiary: #1f222e;
+  --dark: #0e0e12;
+  --green: #52d794;
+  --blue: #00b3bd;
+  --light: #fff;
+  --red: indianred;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* common global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: 'Rajdhani', sans-serif;
+  background-image: url('./coming-soon-01.jpg');
+  font-size: 62.5%;
+  font-weight: 700;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 5rem;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  
+}
+
+img {
+  margin: 3rem 0;
 }
