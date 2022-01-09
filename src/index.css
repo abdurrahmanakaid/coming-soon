@@ -27,17 +27,19 @@ body {
 
 html {
   font-family: 'Rajdhani', sans-serif;
-  background-image: url('./assets/coming-soon-01.jpg');
   font-size: 62.5%;
   font-weight: 700;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 body {
   display: grid;
   place-items: center;
   font-size: 1.6rem;
+  background-image: url('./assets/coming-soon-01.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .center {
@@ -46,12 +48,12 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h3 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 
